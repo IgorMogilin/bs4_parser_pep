@@ -17,5 +17,10 @@ EXPECTED_STATUS = {
     'W': ('Withdrawn',),
     '': ('Draft', 'Active'),
 }
-MAX_BYTES_LOGFILE = 10**6
+MAX_BYTES_LOGFILE = 1_048_576
 LOG_BACKUP_COUNT = 5
+OUTPUT_TABLE = 'pretty'
+OUTPUT_FILE = 'file'
+LOGS_DIR = 'logs'
+DOWNLOADS_DIR = 'downloads'
+RESULTS_DIR = 'results'
